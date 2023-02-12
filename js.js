@@ -5,4 +5,5 @@ function run() {
     let output = document.getElementById("output");
 
     output.contentDocument.body.innerHTML = htmlCode + "<style>" + cssCode + "</style>";
+    output.conteneWindow.eval(jsCode)
 }
